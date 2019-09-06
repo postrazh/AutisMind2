@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/transparent"
+    android:id="@+id/rlTransparentLevel"
+    android:clickable="true"
+    tools:context=".activities.TransparenActivity_Level">
+
+
+
+    <LinearLayout
+        android:id="@+id/pregressRelative"
+        android:layout_width="@dimen/four_hundred_fifty"
+        android:layout_height="@dimen/four_hundred_fifty"
+        android:layout_centerInParent="true"
+        android:background="@drawable/circular_drawable_for_stars"
+        android:orientation="vertical"
+        android:weightSum="100">
+
+        <RelativeLayout
+            android:id="@+id/rlAvaterAria"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="35">
+
+            <ImageView
+                android:id="@+id/ivAvaterCircular"
+                android:layout_width="@dimen/hundred"
+                android:layout_height="@dimen/hundred"
+                android:layout_centerInParent="true"
+                android:background="@drawable/circular_drawable_for_stars"
+                android:padding="@dimen/twenty"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_girl" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlStarsAria"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="30">
+
+            <LinearLayout
+                android:id="@+id/llStarAria"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <ImageView
+                    android:id="@+id/ivStarOne"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_star_grey" />
+
+                <ImageView
+                    android:id="@+id/ivStarTwo"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_star_grey" />
+
+                <ImageView
+                    android:id="@+id/ivStarThree"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_star_grey" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlCounterAria"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="35">
+
+            <TextView
+                android:id="@+id/tvProgressCounter"
+                android:layout_width="@dimen/two_hundred"
+                android:layout_height="@dimen/two_hundred"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="0%"
+                android:textColor="#9D9D9D"
+                android:textSize="@dimen/eighty" />
+        </RelativeLayout>
+
+    </LinearLayout>
+</RelativeLayout>

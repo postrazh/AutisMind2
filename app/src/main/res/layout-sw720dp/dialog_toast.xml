@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/info_bg"
+    android:layout_margin="@dimen/twenty"
+    android:orientation="vertical"
+    android:weightSum="1.3">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/zero"
+        android:layout_weight=".2" />
+
+    <TextView
+        android:id="@+id/tvContent"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/zero"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/twenty"
+        android:layout_weight=".6"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <!--<TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/zero"
+        android:layout_weight=".2" />-->
+
+    <Button
+        android:id="@+id/btnYes"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/zero"
+        android:layout_marginRight="@dimen/twenty"
+        android:layout_weight=".4"
+        android:background="@android:color/transparent"
+        android:gravity="right"
+        android:text="@string/ok"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_twenty_five" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/zero"
+        android:layout_weight=".1" />
+
+</LinearLayout>

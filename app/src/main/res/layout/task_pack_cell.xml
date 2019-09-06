@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_bg"
+    android:foreground="?android:attr/selectableItemBackground"
+    app:cardCornerRadius="@dimen/five">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/eighteen"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/ivTaskPack"
+            android:layout_width="@dimen/hundred_fifty"
+            android:layout_height="@dimen/hundred"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/ic_task_pack" />
+
+        <TextView
+            android:id="@+id/tvTaskPack"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fourty"
+            android:layout_gravity="center"
+            android:text="ABC"
+            android:textAlignment="center"
+            android:textColor="@color/blueLight"
+            android:textSize="@dimen/twenty_five" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/ibtnLocker"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_back"
+        android:visibility="invisible" />
+
+</RelativeLayout>

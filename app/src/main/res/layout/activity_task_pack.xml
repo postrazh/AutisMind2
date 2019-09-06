@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rlLeveView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlAvatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent">
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tvTaskPackName"
+        android:layout_width="@dimen/four_hundred"
+        android:layout_height="@dimen/seventy"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/twenty"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/twenty"
+        android:textStyle="bold" />
+
+
+    <ImageButton
+        android:id="@+id/ibtnBackPack"
+        android:layout_width="@dimen/fifty"
+        android:layout_height="@dimen/fifty"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="@dimen/twenty"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/img_back"
+        android:visibility="visible" />
+
+    <RelativeLayout
+        android:id="@+id/rlTransParent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E64A4D54"
+        android:visibility="gone"></RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:background="@android:color/transparent">
+
+
+        <com.autismindd.utilities.ArrowDownloadButton
+            android:id="@+id/taskPackProgress"
+            android:layout_width="@dimen/three_hundred"
+            android:layout_height="@dimen/three_hundred"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlProgressIDStar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent">
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/centerimageView"
+        android:layout_width="@dimen/two_hundred_thirty"
+        android:layout_height="@dimen/two_hundred_thirty"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/fifty"
+        android:scaleType="fitCenter" />
+</RelativeLayout>

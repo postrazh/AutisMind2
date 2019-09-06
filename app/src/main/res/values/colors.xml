@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="editor_background">#FF666666</color>
+    <color name="yellow">#FFEB3D</color>
+    <color name="orangeLight">#FFC108</color>
+    <color name="orangeDark">#FF9801</color>
+    <color name="redDark">#FF5623</color>
+    <color name="turquoise">#00978A</color>
+    <color name="green">#4FAF51</color>
+    <color name="greenLight">#8DC34A</color>
+    <color name="lime">#CEDB3A</color>
+    <color name="blueDeep">#4051B7</color>
+    <color name="blueLight">#2295F5</color>
+    <color name="blueRiver">#03A8F5</color>
+    <color name="redLight">#F44338</color>
+    <color name="magenta">#E91E64</color>
+    <color name="purple">#9D26B0</color>
+    <color name="lilac">#693AB8</color>
+    <color name="black">#1A1A1A</color>
+    <color name="OkButtonColor">#69B8E9</color>
+    <color name="grey">#999999</color>
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="light_purple">#EFE3EF</color>
+    <color name="greyDLight">#30999999</color>
+    <color name="greyLight">#20999999</color>
+    <color name="transActivityColor">#E64A4D54</color>
+    <color name="transActivityOffColor">#80000000</color>
+    <color name="transparent_blue">#330000FF</color>
+    <color name="iPhone_transpar">#D9F9F9F9</color>
+    <color name="background_content">#ff454344</color>
+    <color name="custom_progress_background">#ff3c3a3b</color>
+    <color name="custom_progress_red_header">#ffcc0000</color>
+    <color name="custom_progress_red_progress">#ffff4444</color>
+    <color name="custom_progress_blue_header">#3333b5e5</color>
+    <color name="custom_progress_blue_progress">#330099cc</color>
+    <color name="custom_progress_blue_progress_half">#330099cc</color>
+ <!--   <color name="supper_error_text_color">#d40000</color>-->
+    <color name="supper_error_text_color">#FFFFFF</color>
+
+    <array name="colorPicker">
+        <item>@color/yellow</item>
+        <item>@color/orangeLight</item>
+        <item>@color/orangeDark</item>
+        <item>@color/redDark</item>
+        <item>@color/turquoise</item>
+        <item>@color/green</item>
+        <item>@color/greenLight</item>
+        <item>@color/lime</item>
+        <item>@color/blueDeep</item>
+        <item>@color/blueLight</item>
+        <item>@color/blueRiver</item>
+        <item>@color/redLight</item>
+        <item>@color/magenta</item>
+        <item>@color/purple</item>
+        <item>@color/lilac</item>
+        <item>@color/black</item>
+        <item>@color/grey</item>
+        <item>@color/white</item>
+        <item>@color/transparent</item>
+
+    </array>
+
+    <color name="black_overlay">#90000000</color>
+</resources>

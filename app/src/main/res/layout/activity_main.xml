@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#69B8E9">
+
+    <ImageView
+        android:id="@+id/largeCircleImageView"
+        android:layout_width="@dimen/sixty"
+        android:layout_height="@dimen/sixty"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="@dimen/hundred_ten"
+        android:layout_marginLeft="@dimen/four_hundred_ten"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_circle_large" />
+
+    <ImageView
+        android:id="@+id/mediumCircleImageView"
+        android:layout_width="@dimen/fourty"
+        android:layout_height="@dimen/fourty"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="@dimen/seventy"
+        android:layout_marginLeft="@dimen/three_hundred_ninety"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_circle_medium" />
+
+    <ImageView
+        android:id="@+id/smallCircleImageView"
+        android:layout_width="@dimen/twenty_five"
+        android:layout_height="@dimen/twenty_five"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="@dimen/thirty"
+        android:layout_marginLeft="@dimen/three_hundred_eighty"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_circle_small" />
+
+    <com.autismindd.utilities.ArrowDownloadButton
+        android:id="@+id/downloadBtn"
+        android:layout_width="@dimen/hundred_thirty"
+        android:layout_height="@dimen/hundred_thirty"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginRight="@dimen/two_hundred"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/animateImageView"
+        android:layout_width="@dimen/six_hundred"
+        android:layout_height="@dimen/three_hundred_fifty"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/fifty"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_autismind_blank_cloud_logo" />
+
+
+    <ImageView
+        android:id="@+id/ivFramAnim"
+        android:layout_width="@dimen/four_hundred"
+        android:layout_height="@dimen/two_hundred_fifty"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/hundred"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter" />
+</RelativeLayout>

@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/lnAllItemLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".20"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/thirty"
+            android:weightSum="1">
+
+            <ImageButton
+                android:id="@+id/topCenterImageButton"
+                android:layout_width="@dimen/fifty"
+                android:layout_height="@dimen/fifty"
+                android:layout_gravity="center"
+                android:layout_weight=".4"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_cross_close" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lnInnerLayout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_margin="@dimen/fifty"
+            android:layout_weight=".80"
+            android:background="@drawable/ic_background_avater"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+
+                <RelativeLayout
+                    android:id="@+id/rlAvatarItemOne"
+                    android:layout_width="@dimen/zero"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:paddingLeft="@dimen/ten"
+                        android:weightSum="1">
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/zero"
+                            android:layout_weight=".1" />
+
+                        <ImageView
+                            android:id="@+id/ivAvatarOne"
+                            android:layout_width="@dimen/hundred_fifty"
+                            android:layout_height="@dimen/zero"
+                            android:layout_gravity="center"
+                            android:layout_weight=".6"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/ic_car_avatar" />
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/zero"
+                            android:layout_gravity="center"
+                            android:layout_weight=".2"
+                            android:background="@drawable/ic_background_avater"
+                            android:orientation="horizontal"
+                            android:weightSum="1">
+
+                            <TextView
+                                android:id="@+id/tvAvatarOne"
+                                android:layout_width="@dimen/zero"
+                                android:layout_height="match_parent"
+                                android:layout_weight=".6"
+                                android:gravity="center"
+                                android:text="@string/update_level_one"
+                                android:textAlignment="center"
+                                android:textColor="@color/grey"
+                                android:textSize="@dimen/font_twenty" />
+
+                            <ImageView
+                                android:id="@+id/ivAvatarOneStar"
+                                android:layout_width="@dimen/zero"
+                                android:layout_height="match_parent"
+                                android:layout_weight=".4"
+                                android:padding="@dimen/five"
+                                android:src="@drawable/ic_star_yellow" />
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/zero"
+                            android:layout_weight=".1" />
+                    </LinearLayout>
+
+
+                    <ImageView
+                        android:id="@+id/ivAvatarOneLocker"
+                        android:layout_width="@dimen/eighty"
+                        android:layout_height="@dimen/eighty"
+                        android:layout_centerInParent="true"
+                        android:background="@android:color/transparent"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/img_locker_prizes" />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/rlAvatarItemTwo"
+                    android:layout_width="@dimen/zero"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:paddingLeft="@dimen/ten"
+                        android:weightSum="1">
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/zero"
+                            android:layout_weight=".1" />
+
+                        <ImageView
+                            android:id="@+id/ivAvatarTwo"
+                            android:layout_width="@dimen/hundred_fifty"
+                            android:layout_height="@dimen/zero"
+                            android:layout_gravity="center"
+                            android:layout_weight=".6"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/ic_car_avatar" />
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/zero"
+                            android:layout_gravity="center"
+                            android:layout_weight=".2"
+                            android:background="@drawable/ic_background_avater"
+                            android:orientation="horizontal"
+                            android:weightSum="1">
+
+                            <TextView
+                                android:id="@+id/tvAvatarTwo"
+                                android:layout_width="@dimen/zero"
+                                android:layout_height="match_parent"
+                                android:layout_weight=".6"
+                                android:gravity="center"
+                                android:text="@string/update_level_two"
+                                android:textAlignment="center"
+                                android:textColor="@color/grey"
+                                android:textSize="@dimen/font_twenty" />
+
+                            <ImageView
+                                android:id="@+id/ivAvatarTwoStar"
+                                android:layout_width="@dimen/zero"
+                                android:layout_height="match_parent"
+                                android:layout_weight=".4"
+                                android:padding="@dimen/five"
+                                android:src="@drawable/ic_star_yellow" />
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/zero"
+                            android:layout_weight=".1" />
+                    </LinearLayout>
+
+
+                    <ImageView
+                        android:id="@+id/ivAvatarTwoLocker"
+                        android:layout_width="@dimen/eighty"
+                        android:layout_height="@dimen/eighty"
+                        android:layout_centerInParent="true"
+                        android:background="@android:color/transparent"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/img_locker_prizes" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rlAvatarItemThree"
+                    android:layout_width="@dimen/zero"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:paddingLeft="@dimen/ten"
+                        android:weightSum="1">
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/zero"
+                            android:layout_weight=".1" />
+
+                        <ImageView
+                            android:id="@+id/ivAvatarThree"
+                            android:layout_width="@dimen/hundred_fifty"
+                            android:layout_height="@dimen/zero"
+                            android:layout_gravity="center"
+                            android:layout_weight=".6"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/ic_car_avatar" />
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/zero"
+                            android:layout_gravity="center"
+                            android:layout_weight=".2"
+                            android:background="@drawable/ic_background_avater"
+                            android:orientation="horizontal"
+                            android:weightSum="1">
+
+                            <TextView
+                                android:id="@+id/tvAvatarThree"
+                                android:layout_width="@dimen/zero"
+                                android:layout_height="match_parent"
+                                android:layout_weight=".6"
+                                android:gravity="center"
+                                android:text="@string/update_level_three"
+                                android:textAlignment="center"
+                                android:textColor="@color/grey"
+                                android:textSize="@dimen/font_twenty" />
+
+                            <ImageView
+                                android:id="@+id/ivAvatarThreeStar"
+                                android:layout_width="@dimen/zero"
+                                android:layout_height="match_parent"
+                                android:layout_weight=".4"
+                                android:padding="@dimen/five"
+                                android:src="@drawable/ic_star_yellow" />
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/zero"
+                            android:layout_weight=".1" />
+                    </LinearLayout>
+
+
+                    <ImageView
+                        android:id="@+id/ivAvatarThreeLocker"
+                        android:layout_width="@dimen/eighty"
+                        android:layout_height="@dimen/eighty"
+                        android:layout_centerInParent="true"
+                        android:background="@android:color/transparent"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/img_locker_prizes" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rlAvatarItemFour"
+                    android:layout_width="@dimen/zero"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:paddingLeft="@dimen/ten"
+                        android:weightSum="1">
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/zero"
+                            android:layout_weight=".1" />
+
+                        <ImageView
+                            android:id="@+id/ivAvatarFour"
+                            android:layout_width="@dimen/hundred_fifty"
+                            android:layout_height="@dimen/zero"
+                            android:layout_gravity="center"
+                            android:layout_weight=".6"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/ic_car_avatar" />
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/zero"
+                            android:layout_gravity="center"
+                            android:layout_weight=".2"
+                            android:background="@drawable/ic_background_avater"
+                            android:orientation="horizontal"
+                            android:weightSum="1">
+
+                            <TextView
+                                android:id="@+id/tvAvatarFour"
+                                android:layout_width="@dimen/zero"
+                                android:layout_height="match_parent"
+                                android:layout_weight=".6"
+                                android:gravity="center"
+                                android:text="@string/update_level_four"
+                                android:textAlignment="center"
+                                android:textColor="@color/grey"
+                                android:textSize="@dimen/font_twenty" />
+
+                            <ImageView
+                                android:id="@+id/ivAvatarFourStar"
+                                android:layout_width="@dimen/zero"
+                                android:layout_height="match_parent"
+                                android:layout_weight=".4"
+                                android:padding="@dimen/five"
+                                android:src="@drawable/ic_star_yellow" />
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/zero"
+                            android:layout_weight=".1" />
+                    </LinearLayout>
+
+
+                    <ImageView
+                        android:id="@+id/ivAvatarFourLocker"
+                        android:layout_width="@dimen/eighty"
+                        android:layout_height="@dimen/eighty"
+                        android:layout_centerInParent="true"
+                        android:background="@android:color/transparent"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/img_locker_prizes" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rlAvatarItemFive"
+                    android:layout_width="@dimen/zero"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:paddingRight="@dimen/ten">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:paddingLeft="@dimen/ten"
+                        android:weightSum="1">
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/zero"
+                            android:layout_weight=".1" />
+
+                        <ImageView
+                            android:id="@+id/ivAvatarFive"
+                            android:layout_width="@dimen/hundred_fifty"
+                            android:layout_height="@dimen/zero"
+                            android:layout_gravity="center"
+                            android:layout_weight=".6"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/ic_car_avatar" />
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/zero"
+                            android:layout_gravity="center"
+                            android:layout_weight=".2"
+                            android:background="@drawable/ic_background_avater"
+                            android:orientation="horizontal"
+                            android:weightSum="1">
+
+                            <TextView
+                                android:id="@+id/tvAvatarFive"
+                                android:layout_width="@dimen/zero"
+                                android:layout_height="match_parent"
+                                android:layout_weight=".6"
+                                android:gravity="center"
+                                android:text="@string/update_level_five"
+                                android:textAlignment="center"
+                                android:textColor="@color/grey"
+                                android:textSize="@dimen/font_twenty" />
+
+                            <ImageView
+                                android:id="@+id/ivAvatarFiveStar"
+                                android:layout_width="@dimen/zero"
+                                android:layout_height="match_parent"
+                                android:layout_weight=".4"
+                                android:padding="@dimen/five"
+                                android:src="@drawable/ic_star_yellow" />
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/zero"
+                            android:layout_weight=".1" />
+                    </LinearLayout>
+
+
+                    <ImageView
+                        android:id="@+id/ivAvatarFiveLocker"
+                        android:layout_width="@dimen/eighty"
+                        android:layout_height="@dimen/eighty"
+                        android:layout_centerInParent="true"
+                        android:background="@android:color/transparent"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/img_locker_prizes" />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rlAvaterUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true">
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

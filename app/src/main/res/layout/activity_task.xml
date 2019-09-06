@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    tools:context=".literacyall.activities.TaskActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+</LinearLayout>
+
+    <android.support.v7.widget.ContentFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@drawable/ic_floor"
+            android:id="@+id/imageButton">
+
+        </ImageButton>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            >
+            <RelativeLayout
+                android:layout_width="@dimen/zero"
+                android:layout_height="fill_parent"
+                android:layout_weight=".75">
+
+                <GridView
+                    android:id="@+id/gvTask"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:listSelector="#00000000"
+                    android:numColumns="4"
+                    android:layout_margin="@dimen/twenty"
+                    android:stretchMode="columnWidth"
+                    android:verticalSpacing="@dimen/eighteen"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="@dimen/zero"
+                android:layout_height="fill_parent"
+                android:layout_weight=".25"
+                android:orientation="vertical"
+                android:foregroundGravity="top"
+                android:weightSum="1">
+
+                <ImageButton
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/zero"
+                    android:layout_gravity="top|end"
+                    android:layout_weight=".3"
+                    android:background="@drawable/ic_lamp"
+                    android:id="@+id/lamp"/>
+
+                <ImageButton
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/zero"
+                    android:layout_weight=".7"
+                    android:layout_gravity="end|bottom"
+                    android:background="@drawable/ic_man"
+                    android:id="@+id/imageButton2" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </android.support.v7.widget.ContentFrameLayout>
+
+
+    <ImageButton
+        android:id="@+id/ibtnBackTask"
+        android:layout_width="@dimen/fifty"
+        android:layout_height="@dimen/fifty"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="@dimen/twenty"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/img_back" />
+
+</RelativeLayout>

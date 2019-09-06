@@ -1,0 +1,64 @@
+apply plugin: 'com.android.application'
+android {
+    compileSdkVersion 23
+    buildToolsVersion '25.0.0'
+
+    defaultConfig {
+        applicationId "com.autismindd"
+        minSdkVersion 21
+        targetSdkVersion 21
+
+        versionCode 55
+        versionName "6.2"
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        repositories {
+            maven { url 'https://oss.sonatype.org/content/repositories/ksoap2-android-releases' }
+        }
+    }
+
+    repositories {
+        maven {
+            url "http://dl.bintray.com/lukaville/maven"
+        }
+        maven { url "https://jitpack.io" }
+        mavenCentral()
+
+    }
+
+    dependencies {
+        compile fileTree(include: ['*.jar'], dir: 'libs')
+        testCompile 'junit:junit:4.12'
+        compile project(':limbikasdk')
+        compile 'com.android.support:appcompat-v7:23.4.0'
+        compile 'com.android.support:design:23.4.0'
+        compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
+        compile 'de.greenrobot:greendao:2.1.0'
+        compile 'com.nbsp:library:1.09'
+        compile 'com.android.support:support-v4:23.4.0'
+        compile 'com.google.code.ksoap2-android:ksoap2-android:3.6.0'
+        compile 'pl.droidsonroids.gif:android-gif-drawable:1.1.17'
+        compile 'com.android.support:cardview-v7:22.0.0'
+        compile 'com.android.support:recyclerview-v7:24.0.0'
+        compile 'com.oguzdev:CircularFloatingActionMenu:1.0.2'
+        compile 'com.theartofdev.edmodo:android-image-cropper:2.3.+'
+        compile 'de.hdodenhof:circleimageview:2.1.0'
+        compile files('libs/volley.jar')
+        compile 'com.squareup.picasso:picasso:2.5.2'
+        compile 'com.squareup.okhttp:okhttp:2.4.0'
+        compile 'com.akexorcist:RoundCornerProgressBar:2.0.3'
+        compile files('libs/mpandroidchartlibrary-2-2-4.jar')
+        compile files('libs/itextg-5.5.8.jar')///for converting statiscis to pdf
+
+    }
+}
+
+dependencies {
+    compile 'com.google.android.gms:play-services-appindexing:8.4.0'
+}

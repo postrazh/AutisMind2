@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rlPlayer"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/flPlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/parentRelLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"></RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/ibtnBackPlay"
+        android:layout_width="@dimen/fifty"
+        android:layout_height="@dimen/fifty"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="@dimen/fifteen"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_back_image" />
+
+    <RelativeLayout
+        android:id="@+id/rlTopLayer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:background="@color/white">
+    </RelativeLayout>
+
+    <com.autismindd.customui.ProgressBarSurfaceView
+        android:id="@+id/progressOne"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fifty"
+        android:layout_alignParentBottom="true" />
+
+
+</RelativeLayout>
+
+    <!--
+    app:rcProgress="90"
+    app:rcBackgroundColor="@android:color/transparent"
+     android:background="@color/background_content"
+
+     app:rcProgress="90"
+            app:rcMax="150"
+
+             app:rcProgressColor="@android:color/transparent"
+            app:rcIconBackgroundColor="@android:color/black"
+        android:background="@android:color/transparent"
+        app:rcIconSrc="@mipmap/ic_android"-->

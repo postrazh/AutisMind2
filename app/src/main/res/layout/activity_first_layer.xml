@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+
+    <!--<ImageButton
+        android:id="@+id/ibtnFloor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_floor" />-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="@dimen/zero"
+            android:layout_height="match_parent"
+            android:layout_weight=".3"
+            android:background="#AFAFE9"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/zero"
+                android:layout_weight=".1" />
+
+            <ImageButton
+                android:id="@+id/ibtnLamp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/zero"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/fifteen"
+                android:layout_marginRight="@dimen/fifteen"
+                android:layout_weight=".2"
+                android:background="@drawable/icon_plus"
+                android:visibility="visible" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/zero"
+                android:layout_weight=".1" />
+
+            <ImageButton
+                android:id="@+id/ibtDoll"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/zero"
+                android:layout_gravity="end|bottom"
+                android:layout_marginLeft="@dimen/fifteen"
+                android:layout_marginRight="@dimen/fifteen"
+                android:layout_weight=".5"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_man_usr" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/zero"
+                android:layout_weight=".1" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="@dimen/zero"
+            android:layout_height="match_parent"
+            android:layout_weight=".7"
+            android:background="#AFAFE9"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/zero"
+                android:layout_weight=".15"
+                android:orientation="horizontal"
+                android:weightSum="5">
+
+                <View
+                    android:layout_width="@dimen/zero"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2" />
+
+                <ImageButton
+                    android:layout_width="@dimen/zero"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="top|center"
+                    android:layout_weight="1"
+                    android:background="@drawable/ic_lamp" />
+
+
+                <View
+                    android:layout_width="@dimen/zero"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/zero"
+                android:layout_marginLeft="@dimen/fifteen"
+                android:layout_marginRight="@dimen/fifteen"
+                android:layout_weight=".65"
+                android:orientation="horizontal">
+
+                <com.autismindd.customui.BookCaseView
+                    android:id="@+id/gvFirstLayer"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:horizontalSpacing="@dimen/ten"
+                    android:listSelector="#00000000"
+                    android:numColumns="4"
+                    android:verticalSpacing="@dimen/twenty" />
+
+            </LinearLayout>
+
+            <!--<View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/zero"
+                android:layout_weight=".05" />-->
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="@dimen/hundred"
+                android:layout_height="@dimen/zero"
+                android:layout_gravity="right"
+                android:layout_marginRight="@dimen/fifty"
+                android:layout_weight=".1"
+                android:background="@drawable/icon_plus"
+                android:visibility="visible" />
+
+            <!--<View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/zero"
+                android:layout_weight=".1"
+                android:background="#A772B1" />-->
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <ImageButton
+        android:id="@+id/ibtnBackFirstLayer"
+        android:layout_width="@dimen/fifty"
+        android:layout_height="@dimen/fifty"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="@dimen/twenty"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_back_selector"
+        android:visibility="visible" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fifty"
+        android:layout_alignParentBottom="true"
+        android:background="#A772B1" />
+
+</RelativeLayout>

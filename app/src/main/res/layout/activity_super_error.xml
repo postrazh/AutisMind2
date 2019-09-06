@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rlError"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <ImageView
+        android:id="@+id/ivError"
+        android:layout_width="@dimen/three_hundred"
+        android:layout_height="@dimen/four_hundred_fifty"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:src="@drawable/level_six_error_image" />
+<!--    <ImageView
+        android:id="@+id/ivError"
+        android:layout_width="@dimen/three_hundred"
+        android:layout_height="@dimen/four_hundred_fifty"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/img_women" />-->
+
+
+    <TextView
+        android:id="@+id/tvErrorMessage"
+        android:layout_width="@dimen/five_hundred"
+        android:layout_height="@dimen/three_hundred_fifty"
+        android:background="@drawable/img_whiteboard_error"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:textSize="@dimen/font_twenty_five"
+        android:gravity="center"
+        android:textColor="@color/supper_error_text_color"
+        android:layout_marginTop="@dimen/fifty"
+        android:layout_marginRight="@dimen/twenty" />
+
+   <!-- <ImageView
+        android:layout_width="@dimen/two_hundred"
+        android:layout_height="@dimen/two_hundred"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:scaleType="fitCenter"
+        android:layout_marginLeft="@dimen/three_hundred"
+        android:layout_marginBottom="@dimen/hundred_twenty"
+        android:src="@drawable/ic_error_corner" />-->
+
+
+</RelativeLayout>

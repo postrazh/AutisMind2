@@ -1,0 +1,93 @@
+<resources>
+
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+
+    <dimen name="zero">0dp</dimen>
+    <dimen name="two">2dp</dimen>
+    <dimen name="three">3dp</dimen>
+    <dimen name="five">5dp</dimen>
+    <dimen name="nine">9dp</dimen>
+    <dimen name="ten">10dp</dimen>
+    <dimen name="twelve">12dp</dimen>
+    <dimen name="fifteen">15dp</dimen>
+    <dimen name="eighteen">18dp</dimen>
+    <dimen name="twenty">20dp</dimen>
+    <dimen name="twenty_five">25dp</dimen>
+    <dimen name="thirty">30dp</dimen>
+    <dimen name="thirty_five">35dp</dimen>
+    <dimen name="thirty_eight">38dp</dimen>
+    <dimen name="fourty">40dp</dimen>
+    <dimen name="fourty_five">45dp</dimen>
+    <dimen name="fifty">50dp</dimen>
+    <dimen name="fifty_five">55dp</dimen>
+    <dimen name="sixty">60dp</dimen>
+    <dimen name="sixty_five">65dp</dimen>
+    <dimen name="seventy">70dp</dimen>
+    <dimen name="seventy_five">75dp</dimen>
+    <dimen name="eighty">80dp</dimen>
+    <dimen name="eighty_five">85dp</dimen>
+    <dimen name="ninty">90dp</dimen>
+    <dimen name="ninty_five">95dp</dimen>
+    <dimen name="hundred">100dp</dimen>
+    <dimen name="hundred_ten">110dp</dimen>
+    <dimen name="hundred_twenty">120dp</dimen>
+    <dimen name="hundred_thirty">130dp</dimen>
+    <dimen name="hundred_fourty">140dp</dimen>
+    <dimen name="hundred_fifty">150dp</dimen>
+    <dimen name="hundred_sixty">160dp</dimen>
+    <dimen name="hundred_seventy">170dp</dimen>
+    <dimen name="hundred_eighty">180dp</dimen>
+    <dimen name="hundred_ninty">190dp</dimen>
+    <dimen name="two_hundred">200dp</dimen>
+    <dimen name="two_hundred_ten">210dp</dimen>
+    <dimen name="two_hundred_thirty">230dp</dimen>
+    <dimen name="two_hundred_forty">240dp</dimen>
+    <dimen name="two_hundred_fifty">250dp</dimen>
+    <dimen name="two_hundred_eighty">280dp</dimen>
+    <dimen name="three_hundred">300dp</dimen>
+    <dimen name="three_hundred_twenty">320dp</dimen>
+    <dimen name="three_hundred_fifty">350dp</dimen>
+    <dimen name="three_hundred_eighty">380dp</dimen>
+    <dimen name="three_hundred_ninety">390dp</dimen>
+    <dimen name="four_hundred">400dp</dimen>
+    <dimen name="four_hundred_ten">410dp</dimen>
+    <dimen name="four_hundred_twenty">420dp</dimen>
+    <dimen name="four_hundred_thirty">430dp</dimen>
+    <dimen name="four_hundred_forty">440dp</dimen>
+    <dimen name="four_hundred_fifty">450dp</dimen>
+    <dimen name="four_hundred_seventy">470dp</dimen>
+    <dimen name="four_hundred_eighty">480dp</dimen>
+    <dimen name="four_hundred_ninty">490dp</dimen>
+
+    <dimen name="five_hundred">500dp</dimen>
+    <dimen name="five_hundred_fifty">550dp</dimen>
+    <dimen name="six_hundred">600dp</dimen>
+    <dimen name="six_hundred_fifty">650dp</dimen>
+    <dimen name="seven_hundred">700dp</dimen>
+    <dimen name="seven_hundred_fifty">750dp</dimen>
+    <dimen name="seven_hundred_eighty">780dp</dimen>
+    <dimen name="eight_hundred">800dp</dimen>
+    <dimen name="nine_hundred">900dp</dimen>
+    <dimen name="thousand">1000dp</dimen>
+
+
+    <dimen name="font_five">5sp</dimen>
+    <dimen name="font_ten">10sp</dimen>
+    <dimen name="font_fifteen">15sp</dimen>
+    <dimen name="font_twenty">20sp</dimen>
+    <dimen name="font_twenty_two">22sp</dimen>
+    <dimen name="font_twenty_five">25sp</dimen>
+    <dimen name="font_thirty">30sp</dimen>
+    <dimen name="font_thirty_five">35sp</dimen>
+    <dimen name="font_fourty">40sp</dimen>
+    <dimen name="font_fourty_five">45sp</dimen>
+    <dimen name="font_fifty">50sp</dimen>
+
+
+
+</resources>

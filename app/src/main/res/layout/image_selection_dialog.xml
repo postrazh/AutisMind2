@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/info_bg"
+    tools:context=".literacyall.Dialog.ImageSelectionDialog">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/hundred_fifty"
+        android:weightSum="8"
+        android:padding="@dimen/twenty"
+        android:orientation="horizontal">
+
+
+        <View
+            android:layout_width="@dimen/zero"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+
+
+        <ImageButton
+            android:id="@+id/ibtnCamera"
+            android:layout_width="@dimen/zero"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/camera" />
+
+
+        <View
+            android:layout_width="@dimen/twenty"
+            android:layout_height="fill_parent"
+            android:layout_weight="2" />
+
+
+        <ImageButton
+            android:id="@+id/ibtnGallery"
+            android:layout_width="@dimen/zero"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/folder" />
+
+
+        <View
+            android:layout_width="@dimen/twenty"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+
+
+        <ImageButton
+            android:id="@+id/ibtnInternet"
+            android:layout_width="@dimen/zero"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:visibility="gone"
+            android:src="@drawable/chrome" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

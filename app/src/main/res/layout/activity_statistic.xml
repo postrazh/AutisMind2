@@ -1,0 +1,741 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".3"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/rlUserInfo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/ibtnPdfStatisticsLevel"
+                    android:layout_width="@dimen/fifty"
+                    android:layout_height="@dimen/fifty"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginRight="@dimen/hundred_ten"
+                    android:layout_marginTop="@dimen/thirty"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_pdf_generate_selector"
+                    android:visibility="visible" />
+
+                <ImageButton
+                    android:id="@+id/ibtnBackStatistics"
+                    android:layout_width="@dimen/fifty"
+                    android:layout_height="@dimen/fifty"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_margin="@dimen/thirty"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/img_back"
+                    android:visibility="visible" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".48"
+
+            android:orientation="vertical">
+
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/chart"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="@dimen/ten" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".2"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".08">
+
+            </View>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".84"
+                android:weightSum=".6">
+                <!--textview section -->
+                <LinearLayout
+                    android:layout_width="@dimen/zero"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".0875"
+                    android:orientation="vertical"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:id="@+id/tvTitleLevelOne"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/zero"
+                        android:layout_weight="2.5"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:text="abc"
+                        android:textAlignment="center"
+                        android:textColor="@color/black" />
+
+                    <LinearLayout
+                        android:id="@+id/llTimeLevelOne"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/zero"
+                        android:layout_gravity="center"
+                        android:layout_weight="5"
+                        android:background="@android:color/transparent"
+                        android:orientation="vertical"
+                        android:weightSum="11">
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/zero"
+                            android:layout_weight="1" />
+
+
+                        <TextView
+                            android:id="@+id/tvTimeDurationLevelOne"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/zero"
+                            android:layout_weight="5"
+                            android:background="@color/white"
+                            android:gravity="left"
+                            android:padding="@dimen/five"
+                            android:text="TTD  03s"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/tvTimeResponseLevelOne"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/zero"
+                            android:layout_weight="5"
+                            android:background="@color/white"
+                            android:gravity="left"
+                            android:padding="@dimen/five"
+                            android:text="TMR  03s"
+                            android:textColor="@color/black" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/zero"
+                        android:layout_weight="2.5"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/two"
+                        android:weightSum="15">
+
+                        <ImageView
+                            android:id="@+id/ivStarOneLevelOne"
+                            android:layout_width="@dimen/zero"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="5"
+                            android:background="@android:color/transparent"
+                            android:src="@drawable/ic_star_grey" />
+
+                        <ImageView
+                            android:id="@+id/ivStarTwoLevelOne"
+                            android:layout_width="@dimen/zero"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="5"
+                            android:background="@android:color/transparent"
+                            android:src="@drawable/ic_star_grey" />
+
+                        <ImageView
+                            android:id="@+id/ivStarThreeLevelOne"
+                            android:layout_width="@dimen/zero"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="5"
+
+                            android:src="@drawable/ic_star_grey" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="@dimen/zero"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".015" />
+                <!--textview section -->
+                <LinearLayout
+                    android:layout_width="@dimen/zero"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".0875"
+                    android:orientation="vertical"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:id="@+id/tvTitleLevelTwo"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/zero"
+                        android:layout_weight="2.5"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:text="abc"
+                        android:textAlignment="center"
+                        android:textColor="@color/black" />
+
+                    <LinearLayout
+                        android:id="@+id/llLevelTime"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/zero"
+                        android:layout_gravity="center"
+                        android:layout_weight="5"
+                        android:background="@android:color/transparent"
+                        android:orientation="vertical"
+                        android:weightSum="11">
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/zero"
+                            android:layout_weight="1" />
+
+                        <TextView
+                            android:id="@+id/tvTimeDurationLevelTwo"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/zero"
+                            android:layout_weight="5"
+                            android:background="@color/white"
+                            android:gravity="left"
+                            android:padding="@dimen/five"
+                            android:text="TTD  03s"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/tvTimeResponseLevelTwo"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/zero"
+                            android:layout_weight="5"
+                            android:background="@color/white"
+                            android:gravity="left"
+                            android:padding="@dimen/five"
+                            android:text="TMR  03s"
+                            android:textColor="@color/black" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/zero"
+                        android:layout_weight="2.5"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/two"
+                        android:weightSum="15">
+
+                        <ImageView
+                            android:id="@+id/ivStarOneLevelTwo"
+                            android:layout_width="@dimen/zero"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="5"
+                            android:background="@android:color/transparent"
+                            android:src="@drawable/ic_star_grey" />
+
+                        <ImageView
+                            android:id="@+id/ivStarTwoLevelTwo"
+                            android:layout_width="@dimen/zero"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="5"
+                            android:background="@android:color/transparent"
+                            android:src="@drawable/ic_star_grey" />
+
+                        <ImageView
+                            android:id="@+id/ivStarThreeLevelTwo"
+                            android:layout_width="@dimen/zero"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="5"
+
+                            android:src="@drawable/ic_star_grey" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="@dimen/zero"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".015" />
+                <!--textview section -->
+                <LinearLayout
+                    android:layout_width="@dimen/zero"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".0875"
+                    android:orientation="vertical"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:id="@+id/tvTitleLevelThree"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/zero"
+                        android:layout_weight="2.5"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:text="abc"
+                        android:textAlignment="center"
+                        android:textColor="@color/black" />
+
+                    <LinearLayout
+                        android:id="@+id/llLevelThreeTimes"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/zero"
+                        android:layout_gravity="center"
+                        android:layout_weight="5"
+                        android:background="@android:color/transparent"
+                        android:orientation="vertical"
+                        android:weightSum="11">
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/zero"
+                            android:layout_weight="1" />
+
+
+                        <TextView
+                            android:id="@+id/tvTimeDurationLevelThree"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/zero"
+                            android:layout_weight="5"
+                            android:background="@color/white"
+                            android:gravity="left"
+                            android:padding="@dimen/five"
+                            android:text="TTD  03s"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/tvTimeResponseLevelThree"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/zero"
+                            android:layout_weight="5"
+                            android:background="@color/white"
+                            android:gravity="left"
+                            android:padding="@dimen/five"
+                            android:text="TMR  03s"
+                            android:textColor="@color/black" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/zero"
+                        android:layout_weight="2.5"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/two"
+                        android:weightSum="15">
+
+                        <ImageView
+                            android:id="@+id/ivStarOneLevelThree"
+                            android:layout_width="@dimen/zero"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="5"
+                            android:background="@android:color/transparent"
+                            android:src="@drawable/ic_star_grey" />
+
+                        <ImageView
+                            android:id="@+id/ivStarTwoLevelThree"
+                            android:layout_width="@dimen/zero"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="5"
+                            android:background="@android:color/transparent"
+                            android:src="@drawable/ic_star_grey" />
+
+                        <ImageView
+                            android:id="@+id/ivStarThreeLevelThree"
+                            android:layout_width="@dimen/zero"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="5"
+                            android:src="@drawable/ic_star_grey" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="@dimen/zero"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".015" />
+                <!--textview section -->
+                <LinearLayout
+                    android:layout_width="@dimen/zero"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".0875"
+                    android:orientation="vertical"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:id="@+id/tvTitleLevelFour"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/zero"
+                        android:layout_weight="2.5"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:text="abc"
+                        android:textAlignment="center"
+                        android:textColor="@color/black" />
+
+                    <LinearLayout
+                        android:id="@+id/llLevelFourTimes"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/zero"
+                        android:layout_gravity="center"
+                        android:layout_weight="5"
+                        android:background="@android:color/transparent"
+                        android:orientation="vertical"
+                        android:weightSum="11">
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/zero"
+                            android:layout_weight="1" />
+
+                        <TextView
+                            android:id="@+id/tvTimeDurationLevelFour"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/zero"
+                            android:layout_weight="5"
+                            android:background="@color/white"
+                            android:gravity="left"
+                            android:padding="@dimen/five"
+                            android:text="TTD  03s"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/tvTimeResponseLevelFour"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/zero"
+                            android:layout_weight="5"
+                            android:background="@color/white"
+                            android:gravity="left"
+                            android:padding="@dimen/five"
+                            android:text="TMR  03s"
+                            android:textColor="@color/black" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/zero"
+                        android:layout_weight="2.5"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/two"
+                        android:weightSum="15">
+
+                        <ImageView
+                            android:id="@+id/ivStarOneLevelFour"
+                            android:layout_width="@dimen/zero"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="5"
+                            android:background="@android:color/transparent"
+                            android:src="@drawable/ic_star_grey" />
+
+                        <ImageView
+                            android:id="@+id/ivStarTwoLevelFour"
+                            android:layout_width="@dimen/zero"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="5"
+                            android:background="@android:color/transparent"
+                            android:src="@drawable/ic_star_grey" />
+
+                        <ImageView
+                            android:id="@+id/ivStarThreeLevelFour"
+                            android:layout_width="@dimen/zero"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="5"
+
+                            android:src="@drawable/ic_star_grey" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="@dimen/zero"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".015" />
+                <!--textview section -->
+                <LinearLayout
+                    android:layout_width="@dimen/zero"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".0875"
+                    android:orientation="vertical"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:id="@+id/tvTitleLevelFive"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/zero"
+                        android:layout_weight="2.5"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:text="abc"
+                        android:textAlignment="center"
+                        android:textColor="@color/black" />
+
+                    <LinearLayout
+                        android:id="@+id/llLevelFiveTimes"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/zero"
+                        android:layout_gravity="center"
+                        android:layout_weight="5"
+                        android:background="@android:color/transparent"
+                        android:orientation="vertical"
+                        android:weightSum="11">
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/zero"
+                            android:layout_weight="1" />
+
+
+                        <TextView
+                            android:id="@+id/tvTimeDurationLevelFive"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/zero"
+                            android:layout_weight="5"
+                            android:background="@color/white"
+                            android:gravity="left"
+                            android:padding="@dimen/five"
+                            android:text="TTD  03s"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/tvTimeResponseLevelFive"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/zero"
+                            android:layout_weight="5"
+                            android:background="@color/white"
+                            android:gravity="left"
+                            android:padding="@dimen/five"
+                            android:text="TMR  03s"
+                            android:textColor="@color/black" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/zero"
+                        android:layout_weight="2.5"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/two"
+                        android:weightSum="15">
+
+                        <ImageView
+                            android:id="@+id/ivStarOneLevelFive"
+                            android:layout_width="@dimen/zero"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="5"
+                            android:background="@android:color/transparent"
+                            android:src="@drawable/ic_star_grey" />
+
+                        <ImageView
+                            android:id="@+id/ivStarTwoLevelFive"
+                            android:layout_width="@dimen/zero"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="5"
+                            android:background="@android:color/transparent"
+                            android:src="@drawable/ic_star_grey" />
+
+                        <ImageView
+                            android:id="@+id/ivStarThreeLevelFive"
+                            android:layout_width="@dimen/zero"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="5"
+                            android:src="@drawable/ic_star_grey" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="@dimen/zero"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".015" />
+                <!--textview section -->
+                <LinearLayout
+                    android:layout_width="@dimen/zero"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".0875"
+                    android:orientation="vertical"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:id="@+id/tvTitleLevelSix"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/zero"
+                        android:layout_weight="2.5"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:text="abc"
+                        android:textAlignment="center"
+                        android:textColor="@color/black" />
+
+                    <LinearLayout
+                        android:id="@+id/llLevelSixTimes"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/zero"
+                        android:layout_gravity="center"
+                        android:layout_weight="5"
+                        android:background="@android:color/transparent"
+                        android:orientation="vertical"
+                        android:weightSum="11">
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/zero"
+                            android:layout_weight="1" />
+
+
+                        <TextView
+                            android:id="@+id/tvTimeDurationLevelSix"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/zero"
+                            android:layout_weight="5"
+                            android:background="@color/white"
+                            android:gravity="left"
+                            android:padding="@dimen/five"
+                            android:text="TTD  03s"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/tvTimeResponseLevelSix"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/zero"
+                            android:layout_weight="5"
+                            android:background="@color/white"
+                            android:gravity="left"
+                            android:padding="@dimen/five"
+                            android:text="TMR  03s"
+                            android:textColor="@color/black" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/zero"
+                        android:layout_weight="2.5"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/two"
+                        android:weightSum="15">
+
+                        <ImageView
+                            android:id="@+id/ivStarOneLevelSix"
+                            android:layout_width="@dimen/zero"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="5"
+                            android:background="@android:color/transparent"
+                            android:src="@drawable/ic_star_grey" />
+
+                        <ImageView
+                            android:id="@+id/ivStarTwoLevelSix"
+                            android:layout_width="@dimen/zero"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="5"
+                            android:background="@android:color/transparent"
+                            android:src="@drawable/ic_star_grey" />
+
+                        <ImageView
+                            android:id="@+id/ivStarThreeLevelSix"
+                            android:layout_width="@dimen/zero"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="5"
+                            android:src="@drawable/ic_star_grey" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".08">
+
+            </View>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".02" />
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rlStatisticsLamp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transActivityOffColor">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlNoData"
+        android:layout_width="@dimen/five_hundred"
+        android:layout_height="@dimen/hundred_fifty"
+        android:layout_centerInParent="true"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tvNoData"
+            android:layout_width="@dimen/five_hundred"
+            android:layout_height="@dimen/hundred_fifty"
+            android:layout_centerInParent="true"
+            android:background="@drawable/rectangle_bg"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_twenty" />
+    </RelativeLayout>
+
+
+    <ImageButton
+        android:id="@+id/ibtnLampStatistics"
+        android:layout_width="@dimen/hundred_fifty"
+        android:layout_height="@dimen/hundred_fifty"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="@dimen/fifty"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_lamp" />
+
+
+</RelativeLayout>
+
+

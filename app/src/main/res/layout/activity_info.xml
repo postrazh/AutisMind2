@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="@dimen/seven_hundred"
+        android:layout_height="@dimen/three_hundred"
+        android:layout_centerInParent="true"
+        android:background="@drawable/info_bg"
+        android:orientation="vertical"
+        android:padding="@dimen/fourty"
+        android:weightSum="1"
+        android:id="@+id/linearLayout">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".05" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".35"
+            android:gravity="left|center"
+            android:text="@string/author"
+            android:textAlignment="gravity"
+            android:textColor="@color/white"
+            android:textSize="@dimen/fifteen" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".1"
+            android:gravity="bottom|center"
+            android:text="@string/condition"
+            android:textColor="@color/white"
+            android:textSize="@dimen/fifteen" />
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".35">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/conditionDesc"
+                android:textColor="@color/white"
+                android:textSize="@dimen/fifteen" />
+        </ScrollView>
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".15" />
+
+    </LinearLayout>
+
+
+    <ImageButton
+        android:id="@+id/ibtnBackInfo"
+        android:layout_width="@dimen/fifty"
+        android:layout_height="@dimen/fifty"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="@dimen/twenty"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/img_back" />
+
+
+    <ImageView
+        android:layout_width="@dimen/two_hundred_fifty"
+        android:layout_height="@dimen/two_hundred_fifty"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/img_boy" />
+
+
+    <ImageButton
+        android:id="@+id/ibtnLimbikaLink"
+        android:layout_width="@dimen/hundred_fifty"
+        android:layout_height="@dimen/hundred"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/three_hundred"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/limbika_logo_alta" />
+
+
+    <TextView
+        android:layout_width="@dimen/two_hundred_thirty"
+        android:layout_height="@dimen/fifty"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="@dimen/twenty_five"
+        android:layout_marginLeft="@dimen/eighty"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:text="@string/spanishName"
+        android:textAlignment="center"
+        android:textColor="#1670A7"
+        android:textSize="@dimen/twenty" />
+
+    <ImageButton
+        android:id="@+id/ibtnIDAPPLink"
+        android:layout_width="@dimen/hundred_fifty"
+        android:layout_height="@dimen/hundred"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/three_hundred_twenty"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo_idaap" />
+
+
+    <ImageButton
+        android:layout_width="@dimen/three_hundred"
+        android:layout_height="@dimen/hundred"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/hundred_fourty"
+        android:layout_marginTop="@dimen/twenty"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/static_logo_autismind" />
+
+    <TextView
+        android:id="@+id/tvAutismindLink"
+        android:layout_width="@dimen/two_hundred_eighty"
+        android:layout_height="@dimen/fifty"
+        android:background="@android:color/transparent"
+        android:gravity="bottom"
+        android:text="@string/autismindLink"
+        android:textAlignment="center"
+        android:textColor="#ff0767a2"
+        android:textSize="@dimen/thirty"
+        android:layout_below="@+id/ibtnBackInfo"
+        android:layout_alignRight="@+id/linearLayout"
+        android:layout_alignEnd="@+id/linearLayout" />
+
+</RelativeLayout>

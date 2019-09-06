@@ -1,0 +1,183 @@
+<resources>
+    <string name="app_name">Autismind</string>
+    <string name="addTest">Aáda texto</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="Text">Texto</string>
+    <string name="SorryText"> LO SENTIMOS! ALGO FUE MAL.</string>
+    <string name="btnText">PPOR FAVOR REPORTAR ERROR </string>
+    <string name="price">Descargar 1.50 €</string>
+    <string name="ok">OK</string>
+    <string name="BackPermission">Quiere ir hacia atrás?</string>
+    <string name="DeletePermission">Quiere eliminar el elemento?</string>
+    <string name="addText">POr favor añada texto</string>
+
+
+    <string name="image_folder_path">/Android/Data/ImageStorage</string>
+    <string name="done">HECHO</string>
+    <string name="Ok">OK</string>
+    <string name="accept">OK</string>
+    <string name="permission">¿Desea descargar los ejercicios ahora?</string>
+    <string name="LoadingMessage">Descargando ...</string>
+    <string name="ResultProcessing"> POr favor espere, procesando ...</string>
+    <string name="MindApp">/Autismind</string>
+    <string name="MindAppSlash">/Autismind/</string>
+    <string name="zip">.zip</string>
+    <string name="map">.map</string>
+    <string name="sdcardLocation">/sdcard/Autismind/</string>
+    <string name="UnzippinMessage">Por favor espere, estamos instalando los ejercicios..</string>
+    <string name="Loading_msg">Cargando... queda poco.</string>
+    <string name="DowanloadPermission"> Para comenzar Autismind, necesitammos descargar los ejercicios de regalo ¿Lo hacemos?</string>
+    <string name="emptyErrorMsg">ERROR</string>
+    <string name="Name">Nombre</string>
+    <string name="AddName">Por favor, añada un nombre.</string>
+    <string name="appBillingService">La compra InAPP está inhabilitada, por favor compruebe su acceso desde Google Play Store >= 3.9.16</string>
+    <string name="productPurchased">Compra InApp</string>
+    <string name="notSupported">Archivo no soportado</string>
+    <string name="Cohete">Cohete</string>
+    <string name="Princesa">Princesa</string>
+    <string name="Coche">Coche</string>
+    <string name="Dinosaurio">Dinosaurio</string>
+    <string name="Unicornio">Unicornio</string>
+    <string name="autismindLink">www.autismind.com</string>
+    <string name="spanishName">Con el apoyo de</string>
+
+    <string name="author">
+        <pre align="left"><b> Autor:</b> </pre><span>                           Alex Escolá Serra \n</span>
+        <pre align="left"><b> Colaboración y asesoramiento:</b> </pre><span>    Noemí Balmaña y Sergi Corbella \n</span>
+        <pre align="left"><b> Ilustración:</b> </pre><span>                     Joan Lalucat \n</span>
+        <pre align="left"><b> Desarrollo App:</b> </pre><span>                  Jorge García Caballero </span>
+
+</string>
+
+    <string name="condition">
+        <pre align="center"><b>  Agradecimientos …</b> </pre>
+
+   </string>
+
+    <string name="conditionDesc">
+       A todas las familias que nos han ayudado desinteresadamente a construir el proyecto AutisMIND,
+       en especial a Marc, Jan, Martina y sus padres, que nos han regalado su voz, su dedicación y su tiempo.
+       También a Nieves, Ester, Terin, Rita, Nacho, Mar, Meritxell, Sara, Marta, Cristian y Alex por su
+       paciencia y apoyo incondicional y, por último,  a todos los compañeros del centro IDAPP y del CDIAP Delta,
+       por el asesoramiento, ánimos y ayuda a lo largo del proceso.
+
+   </string>
+
+    <string name="LevelOne">Nivel 1</string>
+    <string name="LevelTwo">Nivel 2</string>
+    <string name="LevelThree">Nivel 3</string>
+    <string name="LevelFour">Nivel 4</string>
+    <string name="LevelFive">Nivel 5</string>
+    <string name="LevelSix">Nivel 6</string>
+
+
+    <string name="taskOne">Tema 1</string>
+    <string name="taskTwo">Tema 2</string>
+    <string name="taskThree">Tema 3</string>
+    <string name="taskFour">Tema 4</string>
+    <string name="taskFive">Tema 5</string>
+    <string name="taskSix">Tema 6</string>
+    <string name="taskSeven">Tema 7</string>
+    <string name="taskEight">Tema 8</string>
+    <string name="taskNine">Tema 9</string>
+    <string name="taskTen">Tema 10</string>
+
+    <!-- layer wise Description for array array -->
+    <string name="firstLayer1">En este tema se estimula el contacto visual y la atención compartida mediante ejercicios que muestran el sentido y finalidad de la mirada y del señalamiento, así como la importancia de coordinar la atención con el interlocutor para comunicar necesidades, deseos o intenciones en el otro.  </string>
+    <string name="firstLayer2">En este tema se trabaja con fotografía real para practicar el reconocimiento facial de diferentes emociones (alegría, tristeza, rabia, sorpresa y miedo). De esta forma, al identificar cómo se sienten los demás, resulta más sencillo empatizar y responder de la forma esperada al contexto.</string>
+    <string name="firstLayer3">En este tema se trabaja con fotografía real para practicar el reconocimiento facial de diferentes emociones más complejas (aburrimiento, asco, vergüenza y nerviosismo). De esta forma, al identificar cómo se sienten los demás, resulta más sencillo empatizar y responder de la forma esperada al contexto.</string>
+    <string name="firstLayer4">Para una buena interpretación de la realidad es necesario el razonamiento abstracto, que nos permite ver el todo más allá de los detalles o las partes. En este tema se trabaja la percepción global mediante ejercicios gestálticos, para ayudar al niño a tener en cuenta toda la información integrada en un todo, ya que la percepción fragmentada interfiere en la comunicación y la comprensión social.</string>
+    <string name="firstLayer5">En este tema se trata de aprender a interpretar el contexto que rodea una emoción. A través de situaciones donde no se ve la cara del protagonista, el niño deberá inferir la emoción que experimenta teniendo en cuenta la situación: el entorno, los antecedentes, el lenguaje no verbal, la reacción de los demás, etc. </string>
+    <string name="firstLayer6">Este apartado presenta secuencias inacabadas que el niño deberá completar con la opción más probable, reforzando la habilidad de ponerse en el lugar del personaje y pensar la situación más lógica y esperable. Muchas veces la dificultad de anticipar lo que sucederá genera a los niños incertidumbre y ansiedad. En este tema se trata de aprender a interpretar la situación global, entender qué está sucediendo y anticipar la siguiente viñeta. </string>
+    <string name="firstLayer7">En este tema se aborda el hambre, la sed, el sueño, el dolor, las ganas de ir al lavabo, el frío y el calor, etc. Dadas las alteraciones sensoriales y las dificultades de autoconsciencia que pueden tener algunos niños, puede ser difícil entender o identificar determinadas sensaciones corporales, tanto en sí mismos como en los demás. Por ello se trabaja con explicaciones claras y ejercicios visuales que ayudaran al reconocimiento, de forma que aprendan responder y actuar en consecuencia.</string>
+    <string name="firstLayer8">Este tema plantea ejercicios que requieren imaginación; pensamiento simbólico y creativo para entender que a veces se puede simular, inventar o jugar de manera ficticia (dar de comer a un muñeco, simular que el avión vuela por el cielo, etc.). Desde la atribución de propiedades imaginadas a un objeto, hasta la sustitución de objetos o el juego de roles, el desarrollo del juego simbólico correlaciona con una mayor capacidad posterior para desarrollar el lenguaje, razonamiento abstracto y la teoría de la mente. </string>
+    <string name="firstLayer9">La idea de este tema es conocer bien los 5 sentidos básicos (vista, olfato, tacto, gusto y oído). Por un lado puede ser de ayuda para trabajar las alteraciones sensoriales y, por otro, pretende enseñar que sólo podemos saber aquello que percibimos a través de los sentidos, requisito básico para inferir lo que saben o piensan los demás, en función de la información que perciben.</string>
+    <string name="firstLayer10">En este apartado se trata de aprender la idea de que la perspectiva visual cambia según el punto desde el que se mire. Esta afirmación puede ser difícil para niños con alteraciones en la ToM, que pueden pensar que todos ven lo mismo que ellos, al no ser capaces de ponerse en el lugar del otro. Mediante el juego con las perspectivas, se pueden dar cuenta de la existencia de diferentes puntos de vista, reforzando la flexibilidad cognitiva y facilitando la ToM.</string>
+
+    <string name="statisticsDes">#Estadísticas de los niveles</string>
+    <string name="downloadFailed">Descarga fallida, por favor inténtelo denuevo.</string>
+    <string name="tvNoData">Aún no ha comenzado.</string>
+
+    <!-- layer wise Description array -->
+    <array name="FirstLayerTaskString">
+        <item>@string/firstLayer1</item>
+        <item>@string/firstLayer2</item>
+        <item>@string/firstLayer3</item>
+        <item>@string/firstLayer4</item>
+        <item>@string/firstLayer5</item>
+        <item>@string/firstLayer6</item>
+        <item>@string/firstLayer7</item>
+        <item>@string/firstLayer8</item>
+        <item>@string/firstLayer9</item>
+        <item>@string/firstLayer10</item>
+    </array>
+
+    <string name="installFailed">Instalación fallida, por favor inténtelo denuevo.</string>
+    <string name="installComplete">Instalación completa, Enhorabuena!.</string>
+    <string name="connectInternet">Por favor, compruebe su conexión a internet.</string>
+    <string name="notAllow">You are not allow to play this</string>
+    <string name="broad_cast_msg">Este es un mensaje de Testing</string>
+
+    <array name="FirstLayerTaskPrice">
+        <item>@string/firstLayer1</item>
+        <item>@string/firstLayer2</item>
+        <item>@string/firstLayer3</item>
+        <item>@string/firstLayer4</item>
+        <item>@string/firstLayer5</item>
+        <item>@string/firstLayer6</item>
+        <item>@string/firstLayer7</item>
+        <item>@string/firstLayer8</item>
+        <item>@string/firstLayer9</item>
+        <item>@string/firstLayer10</item>
+    </array>
+
+
+    <string name="update_level_one">1</string>
+    <string name="update_level_two">15</string>
+    <string name="update_level_three">50</string>
+    <string name="update_level_four">100</string>
+    <string name="update_level_five">175</string>
+
+
+    <string name="pleaseWait"> por favor espere …</string>
+    <string name="problemSettingUpBilling">"Problemas procesando la compra … "</string>
+    <string name="Error_querying_inventory">Error querying inventory. Another async operation in progress.</string>
+    <string name="Error_purchasing">"Error en su compra, lo sentimos "</string>
+    <string name="Error_purchasing_authincity">Error de autentificación en su proceso de compra.</string>
+    <string name="Error_consuming">"Error while consuming: "</string>
+    <string name="Failed_query_inventory">"Failed to query inventory: "</string>
+    <string name="Error_inventory_another">Error querying inventory. Another async operation in progress.</string>
+    <string name="no">NO</string>
+    <string name="abc">ABC</string>
+    <string name="voice_help">Ayuda de voz</string>
+    <string name="music">Música</string>
+    <string name="progress_bar">Barra de progresión</string>
+    <string name="sound_effects">Efectos de sonido</string>
+    <string name="on">Si</string>
+    <string name="off">No</string>
+    <string name="storageCheck"> Espacio insuficiente en su dispositivo, por favor libere espacio e inténtelo más tarde, su compra se realizó con éxito </string>
+    <string name="storageCheckPdf"> No tiene espacio suficiente en su dispositivo, no es posible crear el archivo.</string>
+    <string name="taskPackDownloadPermit">Descargando ejercicios…Por favor sea paciente.</string> <!--replace by sumon-->
+    <string name="pdfGenerateSuccess">Su archivo PDF se ha creado en la carpeta general de Descargas. Gracias.</string>
+    <string name="levelMissing">Nivel dañado</string>
+
+    <string name="levelOneErrorString">¡Uy! No, no... Fíjate bien y seguro que te sale.</string>
+    <string name="levelTwoErrorString">Mmm...Creo que no. ¡Inténtalo de nuevo!</string>
+    <string name="levelThreeErrorString">Me parece que no. ¡Prueba otra vez!</string>
+    <string name="levelFourErrorString">¡Creo que no!</string>
+    <string name="levelFiveErrorString">Mmm...yo diría que no, piensa otra vez y vuelve a intentarlo.</string>
+    <string name="levelSixErrorString">Nnn Nnn... ¡Nooo!</string>
+    <string name="userSelection">"Por favor, seleccione o cree un usuario primero"</string>
+
+    <string name="userCreate">"Por favor, cree un usuario primero"</string>
+    <string name="userSelect">"Por favor, seleccione un usuario primero"</string>
+
+    <string name="sync_permition">Se han actualizado algunos de los temas de Autismind. Es altamente recomendable descargar las nuevas actualizaciones. Este proceso puede durar varios minutos en base a la calidad de su conexión a la red.</string>
+    <string name="synMessage">por favor espera...</string>
+    <string name="update">Actualizar</string>
+    <string name="mCancel">Cancelar</string>
+
+</resources>

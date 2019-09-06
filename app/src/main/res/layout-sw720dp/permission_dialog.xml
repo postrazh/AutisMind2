@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/five_hundred"
+    android:layout_height="@dimen/two_hundred_fifty"
+    android:weightSum="1"
+    android:background="@drawable/info_bg"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/zero"
+        android:layout_weight=".1" />
+
+    <TextView
+        android:id="@+id/tvContent"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/zero"
+        android:layout_centerHorizontal="true"
+        android:layout_weight=".6"
+        android:layout_margin="@dimen/twenty"
+        android:gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:textSize="@dimen/twenty" />
+
+
+    <Button
+        android:id="@+id/btnAccept"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/zero"
+        android:layout_weight=".3"
+        android:textSize="@dimen/font_thirty"
+        android:textColor="@color/white"
+        android:layout_margin="@dimen/fifteen"
+        android:gravity="right|bottom"
+        android:background="@android:color/transparent"
+        android:text="@string/accept" />
+
+</LinearLayout>

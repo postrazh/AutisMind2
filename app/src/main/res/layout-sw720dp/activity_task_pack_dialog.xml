@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/four_hundred"
+    android:layout_height="@dimen/two_hundred"
+    android:background="@drawable/dialog_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/twenty"
+        android:background="@android:color/transparent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edtTaskPack"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fifty"
+            android:background="@drawable/dialog_edt_bg"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/twenty"
+            android:layout_gravity="center"
+            android:hint="@string/Text" />
+
+
+        <Button
+            android:id="@+id/btnDone"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fifty"
+            android:layout_margin="@dimen/twenty"
+            android:layout_gravity="center"
+            android:textSize="@dimen/twenty"
+            android:textColor="@color/black"
+            android:background="@android:color/transparent"
+            android:text="@string/done" />
+
+    </LinearLayout>
+</LinearLayout>

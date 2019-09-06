@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/hundred_fifty"
+        android:orientation="horizontal"
+        android:padding="@dimen/twenty"
+        android:weightSum="10">
+
+        <View
+            android:layout_width="@dimen/zero"
+            android:layout_height="fill_parent"
+            android:layout_weight=".5" />
+        <!--  view add by reaz-->
+        <View
+            android:layout_width="@dimen/twenty"
+            android:layout_height="fill_parent"
+            android:layout_weight=".5" />
+      <!--  android:visibility="gone" add by reaz-->
+        <ImageButton
+            android:id="@+id/ibtnShare"
+            android:layout_width="@dimen/zero"
+            android:layout_height="fill_parent"
+            android:visibility="gone"
+            android:layout_weight="2"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/icon_share" />
+
+        <View
+            android:layout_width="@dimen/twenty"
+            android:layout_height="fill_parent"
+            android:layout_weight=".5" />
+
+        <ImageButton
+            android:id="@+id/ibtnMove"
+            android:layout_width="@dimen/zero"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_back" />
+
+        <View
+            android:layout_width="@dimen/twenty"
+            android:layout_height="fill_parent"
+            android:layout_weight=".5" />
+
+        <ImageButton
+            android:id="@+id/ibtnEdit"
+            android:layout_width="@dimen/zero"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:visibility="invisible"
+            android:src="@drawable/pencil_edit_button" />
+
+        <View
+            android:layout_width="@dimen/twenty"
+            android:layout_height="fill_parent"
+            android:layout_weight=".5" />
+
+        <ImageButton
+            android:id="@+id/ibtnSingleItemDelete"
+            android:layout_width="@dimen/zero"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/delete" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

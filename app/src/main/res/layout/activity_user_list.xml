@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rlUserLstBg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+
+    <ImageButton
+        android:id="@+id/ibtnFloor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_floor"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/sixty"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/sixty"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="1.225">
+
+        <View
+            android:layout_width="@dimen/zero"
+            android:layout_height="match_parent"
+            android:layout_weight=".18" />
+
+        <ImageButton
+            android:id="@+id/ibtnAdd"
+            android:layout_width="@dimen/zero"
+            android:layout_height="@dimen/sixty"
+            android:layout_weight=".125"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_new_selector" />
+
+
+        <ImageButton
+            android:id="@+id/ibtnSettings"
+            android:layout_width="@dimen/zero"
+            android:layout_height="@dimen/sixty"
+            android:layout_weight=".125"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_settings_selector" />
+
+
+        <ImageButton
+            android:id="@+id/ibtnStatistics"
+            android:layout_width="@dimen/zero"
+            android:layout_height="@dimen/sixty"
+            android:layout_weight=".125"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_statistics_selector" />
+
+
+        <ImageButton
+            android:id="@+id/ibtnDelete"
+            android:layout_width="@dimen/zero"
+            android:layout_height="@dimen/sixty"
+            android:layout_weight=".125"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_erase_selector" />
+
+
+        <ImageButton
+            android:id="@+id/ibtnSync"
+            android:layout_width="@dimen/zero"
+            android:layout_height="@dimen/sixty"
+            android:layout_weight=".125"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:visibility="invisible"
+            android:src="@drawable/ic_sync_selector" />
+
+        <View
+            android:layout_width="@dimen/zero"
+            android:layout_height="match_parent"
+            android:layout_weight=".42" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tvFloorBg"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fifty"
+        android:layout_alignParentBottom="true"
+        android:background="#E7E8E9"
+        android:gravity="center"
+        android:weightSum="1.225">
+
+        <View
+            android:layout_width="@dimen/zero"
+            android:layout_height="match_parent"
+            android:layout_weight=".18" />
+
+        <com.autismindd.customui.CircularTextView
+            android:layout_width="@dimen/zero"
+            android:layout_height="@dimen/two"
+            android:layout_weight=".04"
+            android:background="#D2D2D2" />
+
+        <View
+            android:layout_width="@dimen/zero"
+            android:layout_height="match_parent"
+            android:layout_weight=".085" />
+
+
+        <com.autismindd.customui.CircularTextView
+            android:layout_width="@dimen/zero"
+            android:layout_height="@dimen/two"
+            android:layout_weight=".04"
+            android:background="#D2D2D2" />
+
+
+        <View
+            android:layout_width="@dimen/zero"
+            android:layout_height="match_parent"
+            android:layout_weight=".085" />
+
+
+        <com.autismindd.customui.CircularTextView
+            android:layout_width="@dimen/zero"
+            android:layout_height="@dimen/two"
+            android:layout_weight=".04"
+            android:background="#D2D2D2" />
+
+        <View
+            android:layout_width="@dimen/zero"
+            android:layout_height="match_parent"
+            android:layout_weight=".085" />
+
+
+        <com.autismindd.customui.CircularTextView
+            android:layout_width="@dimen/zero"
+            android:layout_height="@dimen/two"
+            android:layout_weight=".04"
+            android:background="#D2D2D2" />
+
+
+        <View
+            android:layout_width="@dimen/zero"
+            android:layout_height="match_parent"
+            android:layout_weight=".085" />
+
+
+        <com.autismindd.customui.CircularTextView
+            android:layout_width="@dimen/zero"
+            android:layout_height="@dimen/two"
+            android:layout_weight=".04"
+            android:visibility="invisible"
+            android:background="#D2D2D2" />
+
+        <View
+            android:layout_width="@dimen/zero"
+            android:layout_height="match_parent"
+            android:layout_weight=".42" />
+
+
+    </LinearLayout>
+
+
+    <ImageButton
+        android:id="@+id/ibtnBackTask"
+        android:layout_width="@dimen/fifty"
+        android:layout_height="@dimen/fifty"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="@dimen/twenty"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/img_back"
+        android:visibility="invisible" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/ibtnFloor"
+        android:layout_toEndOf="@+id/ibtnFloor"
+        android:layout_toRightOf="@+id/ibtnFloor"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <View
+            android:layout_width="@dimen/zero"
+            android:layout_height="match_parent"
+            android:layout_weight=".03"
+            android:orientation="vertical" />
+
+        <LinearLayout
+            android:layout_width="@dimen/zero"
+            android:layout_height="match_parent"
+            android:layout_weight=".7"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/zero"
+                android:layout_weight=".1" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/zero"
+                android:layout_marginLeft="@dimen/fifteen"
+                android:layout_weight=".65"
+                android:orientation="horizontal">
+
+                <com.autismindd.customui.BookCaseView
+                    android:id="@+id/gvUserList"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clipToPadding="true"
+                    android:gravity="center"
+                    android:listSelector="#00000000"
+                    android:numColumns="5"
+                    android:paddingBottom="20dp" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/zero"
+                android:layout_weight=".05" />
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="@dimen/zero"
+            android:layout_height="match_parent"
+            android:layout_weight=".04"
+            android:orientation="vertical" />
+
+
+        <LinearLayout
+            android:layout_width="@dimen/zero"
+            android:layout_height="match_parent"
+            android:layout_weight=".18"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/zero"
+                android:layout_gravity="top|end"
+                android:layout_weight=".25"
+                android:orientation="horizontal"
+                android:scaleType="fitCenter"
+                android:weightSum="1">
+
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/zero"
+                android:layout_weight=".15" />
+
+            <ImageButton
+                android:id="@+id/ibtDoll"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/zero"
+                android:layout_gravity="end|bottom"
+                android:layout_weight=".6"
+                android:background="@drawable/img_women"
+                android:scaleType="fitCenter" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="@dimen/zero"
+            android:layout_height="match_parent"
+            android:layout_weight=".035"
+            android:orientation="vertical" />
+
+    </LinearLayout>
+
+
+    <ImageButton
+        android:id="@+id/ibtnLamp"
+        android:layout_width="@dimen/hundred_fifty"
+        android:layout_height="@dimen/hundred_fifty"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="@dimen/fifty"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_lamp" />
+
+
+    <RelativeLayout
+        android:id="@+id/rlUserListBulb_off"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/ibtnFloor"
+        android:background="@color/transActivityOffColor"
+        android:visibility="invisible">
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rlSync"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transActivityColor"
+        android:visibility="gone">
+
+        <RelativeLayout
+            android:layout_width="@dimen/three_hundred"
+            android:layout_height="@dimen/two_hundred"
+            android:layout_centerInParent="true"
+            android:background="@drawable/info_bg">
+
+            <TextView
+                android:layout_width="@dimen/three_hundred_fifty"
+                android:layout_height="@dimen/fourty"
+                android:gravity="center"
+                android:text="Please wait, Syncing.."
+                android:textColor="@color/white"
+                android:textSize="@dimen/fifteen" />
+
+            <com.autismindd.utilities.ArrowDownloadButton
+                android:id="@+id/adbSync"
+                android:layout_width="@dimen/hundred_thirty"
+                android:layout_height="@dimen/hundred_thirty"
+                android:layout_centerInParent="true"
+                android:visibility="visible" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

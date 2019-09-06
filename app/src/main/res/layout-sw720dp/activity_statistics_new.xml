@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rlStatisticsLayerMain">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".3"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/rlUserInfo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+              <!--  <ImageButton
+                    android:id="@+id/ibtnPdfStatistics"
+                    android:layout_width="@dimen/seventy"
+                    android:layout_height="@dimen/seventy"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginRight="@dimen/hundred_fifty"
+                    android:layout_marginTop="@dimen/thirty"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_statistics_selector"
+                    android:visibility="visible" />-->
+
+                <ImageButton
+                    android:id="@+id/ibtnBackStatistics"
+                    android:layout_width="@dimen/seventy"
+                    android:layout_height="@dimen/seventy"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_margin="@dimen/thirty"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/img_back"
+                    android:visibility="visible" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".5"
+            android:orientation="vertical">
+
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/chart"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="@dimen/ten" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".2"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".05">
+
+            </View>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".90">
+
+                <LinearLayout
+                    android:layout_width="@dimen/zero"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:orientation="vertical"
+                    android:padding="@dimen/five"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:id="@+id/tvOne"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/zero"
+                        android:layout_weight=".4"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:text="abc"
+                        android:textAlignment="center"
+                        android:textColor="@color/black" />
+
+                    <ImageButton
+                        android:id="@+id/ibtnOne"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/zero"
+                        android:layout_gravity="center"
+                        android:layout_weight=".6"
+                        android:background="@android:color/transparent"
+                        android:padding="@dimen/five"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/add" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="@dimen/zero"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:orientation="vertical"
+                    android:padding="@dimen/five"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:id="@+id/tvTwo"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/zero"
+                        android:layout_weight=".4"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:text="abc"
+                        android:textAlignment="center"
+                        android:textColor="@color/black" />
+
+                    <ImageButton
+                        android:id="@+id/ibtnTwo"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/zero"
+                        android:layout_gravity="center"
+                        android:layout_weight=".6"
+                        android:background="@android:color/transparent"
+                        android:padding="@dimen/five"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/add" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="@dimen/zero"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:orientation="vertical"
+                    android:padding="@dimen/five"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:id="@+id/tvThree"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/zero"
+                        android:layout_weight=".4"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:text="abc"
+                        android:textAlignment="center"
+                        android:textColor="@color/black" />
+
+                    <ImageButton
+                        android:id="@+id/ibtnThree"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/zero"
+                        android:layout_gravity="center"
+                        android:layout_weight=".6"
+                        android:background="@android:color/transparent"
+                        android:padding="@dimen/five"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/add" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="@dimen/zero"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:orientation="vertical"
+                    android:padding="@dimen/five"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:id="@+id/tvFour"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/zero"
+                        android:layout_weight=".4"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:text="abc"
+                        android:textAlignment="center"
+                        android:textColor="@color/black" />
+
+                    <ImageButton
+                        android:id="@+id/ibtnFour"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/zero"
+                        android:layout_gravity="center"
+                        android:layout_weight=".6"
+                        android:background="@android:color/transparent"
+                        android:padding="@dimen/five"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/add" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="@dimen/zero"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:orientation="vertical"
+                    android:padding="@dimen/five"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:id="@+id/tvFive"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/zero"
+                        android:layout_weight=".4"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:text="abc"
+                        android:textAlignment="center"
+                        android:textColor="@color/black" />
+
+                    <ImageButton
+                        android:id="@+id/ibtnFive"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/zero"
+                        android:layout_gravity="center"
+                        android:layout_weight=".6"
+                        android:background="@android:color/transparent"
+                        android:padding="@dimen/five"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/add" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="@dimen/zero"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:orientation="vertical"
+                    android:padding="@dimen/five"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:id="@+id/tvSix"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/zero"
+                        android:layout_weight=".4"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:text="abc"
+                        android:textAlignment="center"
+                        android:textColor="@color/black" />
+
+                    <ImageButton
+                        android:id="@+id/ibtnSix"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/zero"
+                        android:layout_gravity="center"
+                        android:layout_weight=".6"
+                        android:background="@android:color/transparent"
+                        android:padding="@dimen/five"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/add" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="@dimen/zero"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:orientation="vertical"
+                    android:padding="@dimen/five"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:id="@+id/tvSeven"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/zero"
+                        android:layout_weight=".4"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:text="abc"
+                        android:textAlignment="center"
+                        android:textColor="@color/black" />
+
+                    <ImageButton
+                        android:id="@+id/ibtnSeven"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/zero"
+                        android:layout_gravity="center"
+                        android:layout_weight=".6"
+                        android:background="@android:color/transparent"
+                        android:padding="@dimen/five"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/add" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="@dimen/zero"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:orientation="vertical"
+                    android:padding="@dimen/five"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:id="@+id/tvEight"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/zero"
+                        android:layout_weight=".4"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:text="abc"
+                        android:textAlignment="center"
+                        android:textColor="@color/black" />
+
+                    <ImageButton
+                        android:id="@+id/ibtnEight"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/zero"
+                        android:layout_gravity="center"
+                        android:layout_weight=".6"
+                        android:background="@android:color/transparent"
+                        android:padding="@dimen/five"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/add" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="@dimen/zero"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:orientation="vertical"
+                    android:padding="@dimen/five"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:id="@+id/tvNine"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/zero"
+                        android:layout_weight=".4"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:text="abc"
+                        android:textAlignment="center"
+                        android:textColor="@color/black" />
+
+                    <ImageButton
+                        android:id="@+id/ibtnNine"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/zero"
+                        android:layout_gravity="center"
+                        android:layout_weight=".6"
+                        android:background="@android:color/transparent"
+                        android:padding="@dimen/five"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/add" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="@dimen/zero"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:orientation="vertical"
+                    android:padding="@dimen/five"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:id="@+id/tvTen"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/zero"
+                        android:layout_weight=".4"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:text="abc"
+                        android:textAlignment="center"
+                        android:textColor="@color/black" />
+
+                    <ImageButton
+                        android:id="@+id/ibtnTen"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/zero"
+                        android:layout_gravity="center"
+                        android:layout_weight=".6"
+                        android:background="@android:color/transparent"
+                        android:padding="@dimen/five"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/add" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".05">
+
+            </View>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rlStatisticsLayerLamp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transActivityOffColor">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlNoData"
+        android:layout_width="@dimen/five_hundred"
+        android:layout_height="@dimen/hundred_fifty"
+        android:layout_centerInParent="true"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tvNoData"
+            android:layout_width="@dimen/five_hundred"
+            android:layout_height="@dimen/hundred_fifty"
+            android:layout_centerInParent="true"
+            android:background="@drawable/rectangle_bg"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_twenty" />
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/ibtnLampStatisticsLayer"
+        android:layout_width="@dimen/two_hundred"
+        android:layout_height="@dimen/two_hundred"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="@dimen/fifty"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_lamp" />
+
+</RelativeLayout>

@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlFullPurchase"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:id="@+id/llBookCase"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_margin="30dp"
+            android:layout_weight=".30">
+
+            <com.autismindd.customui.BookCaseView
+                android:id="@+id/gvFirstLayerPurchase"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:listSelector="#00000000"
+                android:numColumns="2">
+
+            </com.autismindd.customui.BookCaseView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight=".70"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".30" />
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="30dp"
+                android:layout_weight=".70"
+                android:background="@drawable/user_bg"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight=".75"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/twenty"
+                    android:weightSum="1">
+
+                    <LinearLayout
+                        android:layout_width="@dimen/zero"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".3"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:weightSum="1">
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight=".10" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/zero"
+                            android:layout_weight="0.6">
+
+                            <LinearLayout
+                                android:id="@+id/customLnForRowFlayer"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:padding="@dimen/five"
+                                android:weightSum="1">
+
+
+                                <LinearLayout
+                                    android:id="@+id/lnCellBgFlayerPurchase"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/cell_bg"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:id="@+id/ivProPicFlayerPurchase"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_gravity="center"
+                                        android:layout_margin="@dimen/ten"
+                                        android:layout_weight=".8"
+                                        android:background="@android:color/transparent"
+                                        android:scaleType="fitCenter"
+                                        android:src="@drawable/add" />
+
+                                    <LinearLayout
+                                        android:id="@+id/lnTxtBGFlayer"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight=".2"
+                                        android:background="@drawable/text_bg"
+                                        android:gravity="bottom"
+                                        android:orientation="vertical">
+
+                                        <TextView
+                                            android:id="@+id/tvFlayerNamePurchase"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:gravity="center"
+                                            android:padding="2dp"
+                                            android:text="ABC"
+                                            android:textColor="@android:color/white"
+                                            android:textSize="@dimen/fifteen" />
+                                    </LinearLayout>
+
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <ImageView
+                                android:id="@+id/taskpackLocker_iv"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:layout_alignParentRight="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_margin="@dimen/ten"
+                                android:src="@drawable/img_locker_level" />
+
+                        </RelativeLayout>
+
+                        <LinearLayout
+                            android:id="@+id/lnTxtBGFlayerPurchase"
+                            android:layout_width="fill_parent"
+                            android:layout_height="@dimen/zero"
+                            android:layout_marginTop="5dp"
+                            android:layout_weight=".15"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/tvPurchase"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/text_bg"
+                                android:gravity="center"
+                                android:padding="5dp"
+                                android:text="@string/price"
+                                android:textColor="@android:color/white"
+                                android:textSize="@dimen/fifteen" />
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight=".15" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="@dimen/zero"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".7"
+                        android:orientation="horizontal"
+                        android:weightSum="5">
+
+                        <ImageButton
+                            android:id="@+id/ibtnPrev"
+                            android:layout_width="@dimen/zero"
+                            android:layout_height="@dimen/sixty"
+                            android:layout_weight=".5"
+                            android:layout_gravity="center"
+                            android:background="@android:color/transparent"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/left_arrow" />
+
+                        <LinearLayout
+                            android:layout_width="@dimen/zero"
+                            android:layout_height="@dimen/two_hundred_fifty"
+                            android:layout_gravity="center"
+                            android:layout_weight="4"
+                            android:orientation="vertical">
+
+
+                            <android.support.v4.view.ViewPager
+                                android:id="@+id/vpTaskImage"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@android:color/transparent" />
+
+                        </LinearLayout>
+
+                        <ImageButton
+                            android:id="@+id/ibtnNext"
+                            android:layout_width="@dimen/zero"
+                            android:layout_height="@dimen/sixty"
+                            android:layout_weight=".5"
+                            android:layout_gravity="center"
+                            android:background="@android:color/transparent"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/right_arrow" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight=".25"
+                    android:background="@drawable/bottom_round"
+                    >
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_marginLeft="@dimen/thirty"
+                        android:layout_marginRight="@dimen/thirty"
+                        android:layout_marginTop="@dimen/fifteen"
+                        android:layout_marginBottom="@dimen/fifteen"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/tvTask"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+                    </ScrollView>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <ImageButton
+        android:id="@+id/ibtnBackPurchase"
+        android:layout_width="@dimen/seventy"
+        android:layout_height="@dimen/seventy"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="@dimen/twenty"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/img_back"
+        android:visibility="visible" />
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/rlPurchaseLamp_off"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transActivityOffColor">
+
+    </RelativeLayout>
+
+
+    <ImageButton
+        android:id="@+id/ivPurchaseLamp"
+        android:layout_width="@dimen/two_hundred"
+        android:layout_height="@dimen/two_hundred"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="@dimen/three_hundred"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_lamp" />
+
+
+    <RelativeLayout
+        android:id="@+id/rlDownloadBack"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:background="@color/transActivityColor">
+
+        <RelativeLayout
+            android:layout_width="@dimen/three_hundred_fifty"
+            android:layout_height="@dimen/two_hundred_fifty"
+            android:layout_centerInParent="true"
+            android:background="@drawable/info_bg">
+
+            <TextView
+                android:layout_width="@dimen/three_hundred_fifty"
+                android:layout_height="@dimen/fourty"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:text="@string/taskPackDownloadPermit"
+                android:textSize="@dimen/fifteen" />
+
+            <com.autismindd.utilities.ArrowDownloadButton
+                android:id="@+id/downloadBtnPurchace"
+                android:layout_width="@dimen/hundred_thirty"
+                android:layout_height="@dimen/hundred_thirty"
+                android:layout_centerInParent="true"
+                android:visibility="visible" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

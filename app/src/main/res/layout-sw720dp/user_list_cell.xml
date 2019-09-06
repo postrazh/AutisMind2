@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:background="@drawable/cell_selection_border"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/twenty_five">
+
+    <LinearLayout
+        android:id="@+id/customLnForRow"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:padding="@dimen/five"
+        android:weightSum="1">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="bottom"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:id="@+id/lnCellBg"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".8"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/ivProPic"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:adjustViewBounds="true"
+                        android:background="@android:color/transparent"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/add"
+                        android:layout_centerInParent="true" />
+                    <TextView
+                        android:id="@+id/tvStarUserID"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="120"
+                        android:textSize="12dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="@dimen/ten"
+                        android:layout_marginRight="5dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"/>
+
+
+                    <ImageView
+                        android:id="@+id/imgStar"
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"
+                        android:scaleType="fitCenter"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/ic_star_mini"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginRight="@dimen/five"
+                        android:layout_alignParentTop="true"
+                        android:layout_toLeftOf="@id/tvStarUserID" />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lnTxtBG"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".2"
+                android:background="@drawable/text_bg"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvUserName"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="ABC"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/fifteen" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

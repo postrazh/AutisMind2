@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_transparent_feedback"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    tools:context="com.autismindd.activities.TransparentFeedbackActivity">
+
+    <RelativeLayout
+        android:layout_width="@dimen/three_hundred_fifty"
+        android:layout_height="@dimen/three_hundred_fifty"
+        android:layout_centerVertical="true">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/ivLeftCirculer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:visibility="gone"
+            android:src="@drawable/add" />
+
+        <ImageView
+            android:id="@+id/ivLeftNormal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:background="@android:color/transparent"
+            android:src="@drawable/folder" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="@dimen/three_hundred_fifty"
+        android:layout_height="@dimen/three_hundred_fifty"
+        android:layout_centerHorizontal="true">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/ivTopCirculer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:background="@android:color/transparent"
+            android:src="@drawable/add" />
+
+        <ImageView
+            android:id="@+id/ivTopNormal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:background="@android:color/transparent"
+            android:src="@drawable/folder" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="@dimen/three_hundred_fifty"
+        android:layout_height="@dimen/three_hundred_fifty"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/ivRightCirculer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:background="@android:color/transparent"
+            android:src="@drawable/add" />
+
+        <ImageView
+            android:id="@+id/ivRightNormal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:background="@android:color/transparent"
+            android:src="@drawable/folder" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="@dimen/three_hundred_fifty"
+        android:layout_height="@dimen/three_hundred_fifty"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/ivBottomCirculer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:background="@android:color/transparent"
+            android:src="@drawable/add" />
+
+        <ImageView
+            android:id="@+id/ivBottomNormal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:background="@android:color/transparent"
+            android:src="@drawable/folder" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="@dimen/three_hundred_fifty"
+        android:layout_height="@dimen/three_hundred_fifty"
+        android:layout_centerInParent="true">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/ivCenterCirculer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:background="@android:color/transparent"
+            android:src="@drawable/add" />
+
+        <ImageView
+            android:id="@+id/ivCenterNormal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:background="@android:color/transparent"
+            android:src="@drawable/folder" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

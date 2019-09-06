@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlTransparentLevel_gift"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    android:clickable="true">
+
+
+    <LinearLayout
+        android:id="@+id/pregressRelativeGift"
+        android:layout_width="@dimen/four_hundred_fifty"
+        android:layout_height="@dimen/four_hundred_fifty"
+        android:layout_centerInParent="true"
+        android:background="@drawable/circular_drawable_for_stars"
+        android:orientation="vertical"
+        android:weightSum="100">
+
+        <RelativeLayout
+            android:id="@+id/rlAvaterAriaGift"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="100"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/ivAvaterCircularGift"
+                android:layout_width="@dimen/four_hundred"
+                android:layout_height="@dimen/four_hundred"
+                android:layout_centerInParent="true"
+                android:padding="@dimen/twenty"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_gift_girl" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>

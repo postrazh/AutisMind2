@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffefe3ef" >
+
+    <WebView
+        android:id="@+id/wvImageSearch"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ffefe3ef" />
+
+    <ImageButton
+        android:id="@+id/ibtnGoBack"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="15dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_back_image" />
+
+    <ImageButton
+        android:id="@+id/ibtnTake"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="15dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_crop_image" />
+
+</RelativeLayout>
