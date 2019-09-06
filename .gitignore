@@ -1,0 +1,73 @@
+# built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Eclipse project files
+.classpath
+.project
+
+# Android Studio
+.idea/
+.gradle
+/*/local.properties
+/*/out
+/*/*/build
+/*/*/production
+*.iml
+*.iws
+*.ipr
+*~
+*.swp
+build/intermediates/dex-cache/cache.xml
+simple-crop-image-lib/build
+build/intermediates/dex-cache/cache.xml
+
+bin/
+gen/
+png/
+target/
+.settings/
+.classpath
+*.class
+*.log
+*.iml
+.DS_Store
+library inApp/build/outputs/aar/library inApp-release.aar
+library inApp/build/intermediates/incremental/packageReleaseResources/merger.xml
+library inApp/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties
+library inApp/build/intermediates/incremental/mergeReleaseShaders/merger.xml
+library inApp/build/intermediates/incremental/mergeReleaseShaders/merger.xml
+library inApp/build/intermediates/incremental/mergeReleaseAssets/merger.xml
+library inApp/build/intermediates/incremental/compileReleaseAidl/dependency.store
+library inApp/build/intermediates/bundles/release/AndroidManifest.xml
+library inApp/build/generated/source/buildConfig/release/com/anjlab/android/iab/v3/BuildConfig.java
+library inApp/build/generated/source/aidl/release/com/android/vending/billing/IInAppBillingService.java
+library inApp/build/outputs/aar/library inApp-release.aar
+library inApp/build/intermediates/incremental/packageReleaseResources/merger.xml
+library inApp/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties
+library inApp/build/intermediates/incremental/mergeReleaseShaders/merger.xml
+library inApp/build/intermediates/incremental/mergeReleaseAssets/merger.xml
+library inApp/build/intermediates/incremental/compileReleaseAidl/dependency.store
+library inApp/build/generated/source/aidl/release/com/android/vending/billing/IInAppBillingService.java
+library inApp/build/intermediates/incremental/packageReleaseResources/merger.xml
+library inApp/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties
+library inApp/build/intermediates/incremental/mergeReleaseShaders/merger.xml
+library inApp/build/intermediates/incremental/mergeReleaseJniLibFolders/merger.xml
+library inApp/build/intermediates/incremental/mergeReleaseAssets/merger.xml
+library inApp/build/intermediates/bundles/release/classes.jar
+library inApp/build/generated/source/aidl/release/com/android/vending/billing/IInAppBillingService.java
+build/generated/mockable-android-23.jar
+build/generated/mockable-android-23.jar
